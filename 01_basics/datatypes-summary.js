@@ -28,6 +28,10 @@ let myObj = {
     age: 22,
 }
 
+myObj.name = "Ritesh"
+
+//console.log(myObj);
+
 const myFunction = function(){
     console.log("Hello world");
 }

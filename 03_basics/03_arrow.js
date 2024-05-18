@@ -39,10 +39,13 @@ const chai =  () => {
 //     return num1 + num2
 // }
 
+// implicit return
 // const addTwo = (num1, num2) =>  num1 + num2
 
 // const addTwo = (num1, num2) => ( num1 + num2 )
 
+//what if we had to return an object?
+// To return an object we have to surround it with the {} paranthesis.
 const addTwo = (num1, num2) => ({username: "hitesh"})
 
 

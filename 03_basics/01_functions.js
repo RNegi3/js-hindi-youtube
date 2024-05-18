@@ -1,6 +1,6 @@
 
 function sayMyName(){
-    console.log("H");
+    console.log("R");
     console.log("I");
     console.log("T");
     console.log("E");
@@ -8,7 +8,7 @@ function sayMyName(){
     console.log("H");
 }
 
-// sayMyName()
+//      sayMyName()
 
 // function addTwoNumbers(number1, number2){
 
@@ -35,8 +35,8 @@ function loginUserMessage(username = "sam"){
     return `${username} just logged in`
 }
 
-// console.log(loginUserMessage("hitesh"))
-// console.log(loginUserMessage("hitesh"))
+console.log(loginUserMessage("ritesh"))
+// console.log(loginUserMessage("ritesh"))
 
 
 function calculateCartPrice(val1, val2, ...num1){
@@ -46,7 +46,7 @@ function calculateCartPrice(val1, val2, ...num1){
 // console.log(calculateCartPrice(200, 400, 500, 2000))
 
 const user = {
-    username: "hitesh",
+    username: "ritesh",
     prices: 199
 }
 
@@ -55,10 +55,6 @@ function handleObject(anyobject){
 }
 
 // handleObject(user)
-handleObject({
-    username: "sam",
-    price: 399
-})
 
 const myNewArray = [200, 400, 100, 600]
 
